@@ -5,7 +5,7 @@ import { configure, mount } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 configure({ adapter: new Adapter() });
  
-describe('UploadButton()', () => {
+describe('SimpleUploadButton()', () => {
   it('calls onFileReady() when  file is loaded', () => {
   
     const testFile = new File(['(⌐□_□)'], 'cool.png', {
